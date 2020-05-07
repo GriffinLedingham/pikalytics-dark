@@ -1,0 +1,73 @@
+.dm #main_header {
+	background: #282c34 !important;
+}
+
+.dm .articles-button,
+.dm .calc-button,
+.dm .pokedex-button,
+.dm .results-button,
+.dm .team-button,
+.dm .twitter-button,
+.dm .go-button {
+	color: #c7cee0 !important;
+	border-bottom: none !important;
+}
+
+.dm #logo_button,
+.dm .localization-container a,
+.dm #app,
+.dm .pokemon-stat-container div {
+	color: #c7cee0 !important;
+}
+
+.dm .pokedex-category-wrapper {
+	border: 1px solid #60646d !important;
+}
+
+.dm .pokedex-move-entry-new {
+	background: #2b2f35 !important;
+}
+
+.dm .pokedex-move-entry-new:nth-of-type(odd),
+.team.dm #suggest .pokedex_entry {
+	background: #383e44 !important;
+}
+
+.dm .teammate_entry.pokedex-move-entry-new:hover {
+	background: #505665 !important;
+}
+
+.team.dm #suggest .pokedex_entry {
+	border: 1px solid #6d7179 !important;
+	color: #c7cee0 !important;
+}
+
+.dm #mini_list_wrapper,
+.dm .select-wrapper,
+.dm .bg-white,
+.dm #team_build_header {
+	background: #2b2f35 !important;
+}
+
+.dm #team_build_header {
+	border-bottom: 1px solid #6d7179 !important;
+}
+
+.team.dm #suggest .list {
+	background: #2b2f35 !important;
+}
+
+.dm #pokemon_content_wrapper,
+body.dm {
+	background: #181a1f !important;
+}
+
+.pokedex.dm .pokedex_entry {
+	color: #c7cee0 !important;
+}
+
+@media (min-width: 801px) {
+	.dm .pokedex_entry:hover {
+		background: #505665 !important;
+	}
+}
