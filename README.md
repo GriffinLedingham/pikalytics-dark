@@ -1,5 +1,5 @@
 # pikalytics-dark
-A Stylish script which provides dark mode for Pikalytics. This is an open source stylesheet with the intention of iterating on until it's ready to go live as a permanent fixture on Pikalytics.
+A stylesheet (to be used in a Stylish script) which provides dark mode for Pikalytics. This is an open source stylesheet with the intention of iterating on until it's ready to go live as a permanent fixture on Pikalytics.
 
 I'm opting for `!important` on all styles (it's terrible, don't @ me) so that these styles can just stomp existing Pikalytics styles without a major refactor, as refactoring 5 years of CSS is out of the scope of what I want to accomplish here hah.
 
