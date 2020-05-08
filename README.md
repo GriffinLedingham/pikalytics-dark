@@ -3,7 +3,8 @@ A stylesheet (to be used in a Stylish script) which provides dark mode for Pikal
 
 I'm opting for `!important` on all styles (it's terrible, don't @ me) so that these styles can just stomp existing Pikalytics styles without a major refactor, as refactoring 5 years of CSS is out of the scope of what I want to accomplish here hah.
 
-![Pikalytics Dark Mode](https://i.imgur.com/L68l2gi.png)
+![Pikalytics Dark Mode](https://i.imgur.com/7OGPSHt.png)
+![Pikalytics Team Dark Mode](https://i.imgur.com/yzQvtMX.png)
 
 ## Requirements
 
@@ -25,3 +26,11 @@ I'm opting for `!important` on all styles (it's terrible, don't @ me) so that th
 ```
 - You should see the dark theme take effect.
 - Feel free to iterate, and submit pull requests here if you'd like!
+
+## ToDo
+
+- Type icons
+- Team Builder Modals
+- Most of Tournaments
+- Most of Articles
+- Most of Damage Calc
