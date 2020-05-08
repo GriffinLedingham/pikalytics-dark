@@ -1,5 +1,5 @@
 .dm #main_header {
-	background: #282c34 !important;
+    background: #282c34 !important;
 }
 
 .dm .articles-button,
@@ -9,65 +9,233 @@
 .dm .team-button,
 .dm .twitter-button,
 .dm .go-button {
-	color: #c7cee0 !important;
-	border-bottom: none !important;
+    color: #c7cee0 !important;
+    border-bottom: none !important;
 }
 
 .dm #logo_button,
 .dm .localization-container a,
 .dm #app,
 .dm .pokemon-stat-container div {
-	color: #c7cee0 !important;
+    color: #c7cee0 !important;
 }
 
 .dm .pokedex-category-wrapper {
-	border: 1px solid #60646d !important;
+    border: 1px solid #60646d !important;
 }
 
 .dm .pokedex-move-entry-new {
-	background: #2b2f35 !important;
+    background: #2b2f35 !important;
 }
 
 .dm .pokedex-move-entry-new:nth-of-type(odd),
 .team.dm #suggest .pokedex_entry {
-	background: #383e44 !important;
+    background: #383e44 !important;
 }
 
 .dm .teammate_entry.pokedex-move-entry-new:hover {
-	background: #505665 !important;
+    background: #505665 !important;
 }
 
 .team.dm #suggest .pokedex_entry {
-	border: 1px solid #6d7179 !important;
-	color: #c7cee0 !important;
+    border: 1px solid #6d7179 !important;
+    color: #c7cee0 !important;
 }
 
 .dm #mini_list_wrapper,
 .dm .select-wrapper,
 .dm .bg-white,
 .dm #team_build_header {
-	background: #2b2f35 !important;
-}
-
-.dm #team_build_header {
-	border-bottom: 1px solid #6d7179 !important;
-}
-
-.team.dm #suggest .list {
-	background: #2b2f35 !important;
+    background: #2b2f35 !important;
 }
 
 .dm #pokemon_content_wrapper,
 body.dm {
-	background: #181a1f !important;
+    background: #181a1f !important;
 }
 
 .pokedex.dm .pokedex_entry {
-	color: #c7cee0 !important;
+    color: #c7cee0 !important;
 }
 
+.dm #babiri_button,
+.dm #vgcstats_button {
+    background: #383e44 !important;
+    box-shadow: 1px 1px 1px rgba(95, 99, 109, 0.5) !important;
+    border: 1px solid #5f636d !important;
+}
+
+.dm #babiri_button span,
+.dm #vgcstats_button span {
+    text-shadow: none !important;
+    color: #c2cadb !important;
+}
+
+.dm #format_dd {
+    background: #383e44 !important;
+    color: #c7cfe0 !important;
+}
+
+.dm #format_dd optgroup,
+.dm #format_dd option {
+    color: black !important;
+}
+
+.dm .search-trend-button.inactive {
+    border: 1px solid #5f636d !important;
+}
+
+/*** Team Builder ***/
+.dm #team_build_header {
+    border-bottom: 1px solid #6d7179 !important;
+}
+
+.team.dm #suggest .list {
+    background: #2b2f35 !important;
+}
+
+.dm #save_team,
+.dm #link_button,
+.dm #share_button {
+    background: #443f38 !important;
+    border: 1px solid #6c7079 !important;
+    color: #c7cfe0 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.dm #new_button,
+.dm .team-add-button {
+    background: #394439;
+    border: 1px solid #6c7079 !important;
+    color: #c7cfe0 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.dm #load_button {
+    background: #3f3944;
+    border: 1px solid #6c7079 !important;
+    color: #c7cfe0 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.dm #import_button,
+.dm #export_sd_button {
+    background: #383e44;
+    border: 1px solid #6c7079 !important;
+    color: #c7cfe0 !important;
+    text-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.dm .team-v2-row-right {
+    background-color: #1d2025 !important;
+}
+
+.dm .team-v2-move-text {
+    color: #c7cfe0;
+}
+
+.dm .team-v2-row-right .fa.fa-plus-circle {
+    color: #c7cfe0;
+}
+
+.dm .team-v2-row-left {
+    background-color: #2b2f35 !important;
+}
+
+.dm .team-builder-entry {
+    background-color: #2b2f35 !important;
+}
+
+.dm .team-v2-ev-row,
+.dm .team-builder-ev-input,
+.dm .add-spread-button {
+    background: #3d434c !important;
+}
+
+.dm .team-v2-option-button.remove {
+    background: #352b2e !important;
+    color: #e1c8cd !important;
+    border: 1px solid #6c7079 !important;
+}
+
+.dm .team-v2-option-button.calc.calc_button {
+    background: #383e44 !important;
+    color: white !important;
+    border: 1px solid #6c7079 !important;
+}
+
+.dm #right_sidebar {
+    background: #2b2f35 !important;
+    color: #c7cee0 !important;
+}
+
+.dm #right_sidebar div #moves_wrapper span:first-of-type {
+    color: #ff8e8e !important;
+}
+.dm #right_sidebar div #moves_wrapper span span:first-of-type {
+    color: white !important;
+}
+
+.dm #right_sidebar div #teammate_wrapper span:first-of-type {
+    color: #ff8e8e !important;
+}
+.dm #right_sidebar div #teammate_wrapper span span:first-of-type {
+    color: white !important;
+}
+
+.dm #right_sidebar div #abilities_wrapper span:first-of-type {
+    color: #ff8e8e !important;
+}
+.dm #right_sidebar div #abilities_wrapper span span:first-of-type {
+    color: white !important;
+}
+
+.dm #right_sidebar div #spread_wrapper span:first-of-type {
+    color: #ff8e8e !important;
+}
+.dm #right_sidebar div #spread_wrapper span span:first-of-type {
+    color: white !important;
+}
+
+.team.dm .teammate_entry {
+    color: #c7cee0 !important;
+}
+
+.team.dm .teammate_entry:hover {
+    background: #2b2f35 !important;
+}
+
+.dm #right_sidebar div .pokedex-move-entry span:first-of-type {
+    color: #c7cee0 !important;
+}
+
+.dm #right_sidebar div .pokedex-move-entry span:first-of-type span {
+    color: #ff8e8e !important;
+}
+
+.dm #bstats_wrapper {
+    background: rgb(43, 47, 53) !important;
+}
+
+.dm #bstats_wrapper div:nth-of-type(2) span {
+    color: #c7cee0 !important;
+}
+
+/*** Media Queries ***/
 @media (min-width: 801px) {
-	.dm .pokedex_entry:hover {
-		background: #505665 !important;
-	}
+    .dm .pokedex_entry:hover {
+        background: #505665 !important;
+    }
+
+    .team.dm .pokedex_entry:hover {
+        background: #1aa2e6 !important;
+    }
+
+    .team.dm .team-v2-row-left {
+        background-color: #2b2f35 !important;
+    }
 }
